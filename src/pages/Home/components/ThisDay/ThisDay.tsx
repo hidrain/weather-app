@@ -13,7 +13,7 @@ export const ThisDay = ({ weather }: Props) => {
             <div className={s.top__block}>
                 <div className={s.top__block_wrapper}>
                     <div className={s.this__temp}>
-                        {Math.round(weather.main.temp)}
+                        {Math.round(weather.main.temp)}°
                     </div>
                     <div className={s.this__day_name}>Today</div>
                 </div>

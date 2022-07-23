@@ -9,13 +9,13 @@ export const Tabs = (props: Props) => {
 
     const tabs = [
         {
-            value: 'На неделю',
+            value: 'Weekly',
         },
         {
-            value: 'На 10 дней',
+            value: '10 days',
         },
         {
-            value: 'На месяц',
+            value: 'Monthly',
         },
     ]
 
